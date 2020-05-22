@@ -9,6 +9,20 @@ class daries(View):
         return render(request, 'memons/index.html', {})
 
 
+class Notes(View):
+    def get(self, request):
+        return render(request, 'memons/notes.html', {})
+
+    def post(self, request):
+        title = request.POST['title']
+        body = request.POST['body']
+
+        note = Diry()
+        note.title = title
+        note.body = body
+        note.save()
+        return render(request, 'memons/notes.html', {})
+
 
 class Register(View):
     signup = RegisterForm()

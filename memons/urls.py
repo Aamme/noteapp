@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('', views.daries.as_view()),
-    path('register/', views.Register.as_view())
+    path('register/', views.Register.as_view()),
+    path('mynote/', views.Notes.as_view())
 ]
