@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nameste Biste</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'Topi/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Topi/css/mdb.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Topi/css/custom.css' %}">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="{% static 'Topi/js/jquery.min.js' %}"></script>
+    <script src="{% static 'Topi/js/mdb.min.js' %}"></script>
+    <script src="{% static 'Topi/js/popper.min.js' %}"></script>
+    <script src="{% static 'Topi/js/tooltip.min.js' %}"></script>
+    <script src="{% static 'Topi/js/bootstrap.min.js' %}"></script>
+
+    <script src="https://kit.fontawesome.com/c7a404bbce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    {% block content %}
+    {% endblock %}
+    <script src="{% static 'Topi/js/script.js' %}"></script>
+</body>
+
+</html>

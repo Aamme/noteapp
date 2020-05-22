@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
+*{
+    font-family: 'Marvel', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(136, 136, 136);
+}
+
+#headertag{
+    color: red;
+}
+
+#navigate{
+    color: black;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+#navigate:hover{
+    color: rgb(71, 71, 71);
+}
+
+
+ul{
+    text-align: center;
+}
+
+.navigationitem{
+    text-align: center;
+}
+
+#navitaion{
+    padding: 20px;
+    box-shadow: none;
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black;
+
+}
+
+#search{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#searchbtn{
+    box-shadow: none;
+    border: 1px solid black;
+    height: 40px;
+    width: 80px;
+    padding: 0;
+    margin: 0;
+
+}
+
+#searchbtn:hover{
+    color: white;
+    background-color: black;
+}
+
+.img{
+    height: 90vh;
+    width: 100rem;
+    background-image: url("../image/indexphoto.JPG");
+    background-size: cover;
+}
+
+.overlay{
+    height: 100px;
+    width: 70%;
+    background-color: black;
+    margin-left: 15%;
+    position: absolute;
+    bottom: -70px;
+    box-shadow: 3px 3px 20px rgb(73, 73, 73);
+    color: white;
+}
+
+#products{
+    width: 100%;
+    margin-top: 90px;
+    border: 1px solid black;
+}
+
+.wallet{
+    width: 18rem;
+}
+
+#cards{
+    margin-left: 10px;
+    margin: 20px; 
+    border-radius: 0px; 
+    box-shadow: 5px 5px 15px rgb(167, 165, 165);
+}
+
+.card-header{
+    text-align: center;
+    background-color: white;
+}
+
+.mobileclass{
+    width: 100%;
+}
+
+#cartbtn{
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-left: 5px;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+  }
+  
+  .dropdown-menu li:hover {
+    visibility: visible;
+    background-color: rgb(214, 214, 214);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu, .dropdown-menu,
+  .navbar .dropdown-menu {
+    margin-top: 0;
+  }
